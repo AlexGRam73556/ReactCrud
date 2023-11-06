@@ -1,0 +1,47 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.submite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 80%; /* Ancho deseado */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center; /* Centrar el texto en las celdas */
+  }
+  
+  th, td {
+    padding: 8px; /* Espaciado interno en las celdas */
+    border: 1px solid #ddd;
+  }
